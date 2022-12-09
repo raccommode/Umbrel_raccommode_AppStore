@@ -12,3 +12,7 @@ services:
     image: tootsuite/mastodon
     user: "1000:1000"
     init: true
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data:/home/node/.mastodon
+    stop_grace_period: 1m
