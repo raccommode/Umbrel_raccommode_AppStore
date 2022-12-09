@@ -1,30 +1,31 @@
-manifestVersion: 2
-id: axelpilop
+manifestVersion: 1
+id: minecraft-server
+category: Explorer
 name: Minecraft Server
-tagline: Replace this tagline with your app's tagline
-icon: https://svgur.com/i/mvA.svg
-category: Development
 version: "1.0.0"
-port: 4000
+icon : https://stxsats.mypinata.cloud/ipfs/QmR7bp65twj3LAR4jPKiAREAcb9xKj5oXU5rpN57nMvFdX/onstacks.svg
+tagline: Understand Stacks Mining & A Stacks Explorer
 description: >-
-  Add your app's description here.
-
-
-  You can also add newlines!
-
-developer: AxelPilop
-website: https://axelpilop.com
-submitter: AxelPilop
-submission: https://github.com/AxelPilop/Umbrel_AxelPilop_AppStore
-repo: https://github.com/AxelPilop/Umbrel_AxelPilop_AppStore
-support: https://github.com/AxelPilop/Umbrel_AxelPilop_AppStore/issues
+  Onstacks is the leading analytics provider for miners on the Stacks network. 
+  Track, analyse, and get notifications (coming soon) on all mining related 
+  activies with Onstacks.
+  - Understand Stacks Mining
+  - A Stacks Explorer
+  - Track your mining performance and use live operational intelligence to help you outcompete other STX miners
+developer: Daemon Technologies
+website: https://www.onstacks.com/
+submitter: Jasper
+dependencies:
+  #- stacks-blockchain
+  #- mempool
+  #- bitcoin # Not yet
+  #- ipfs-node # Not yet
+repo: https://github.com/Daemon-Technologies/Onstacks-client
+support: https://github.com/Daemon-Technologies/Onstacks-client/issues
+port: 6054
 gallery:
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-releaseNotes: >-
-  Add what's new in the latest version of your app here.
-dependencies: []
+  - https://stxsats.mypinata.cloud/ipfs/QmR7bp65twj3LAR4jPKiAREAcb9xKj5oXU5rpN57nMvFdX/onstacks.jpg
 path: ""
 defaultUsername: ""
 defaultPassword: ""
+torOnly: false
