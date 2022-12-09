@@ -5,7 +5,7 @@ tagline: Mastodon is a free, open-source social network server
 icon: https://images.news18.com/ibnlive/uploads/2022/04/mastodon-logo-final.jpg
 category: Social
 version: "1.0.0"
-port: 4000
+port: 9524
 description: >-
   Mastodon is a free, open-source social network server based on ActivityPub where users can follow friends and discover new ones. On Mastodon, users can publish anything they want: links, pictures, text, video. All Mastodon servers are interoperable as a federated network (users on one server can seamlessly communicate with users from another one, including non-Mastodon software that implements ActivityPub)!
 

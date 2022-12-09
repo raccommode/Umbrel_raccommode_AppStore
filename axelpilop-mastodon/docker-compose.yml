@@ -5,10 +5,23 @@ services:
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: sparkles-mastodon_1
+      APP_HOST: sparkles-minecraft-server_1
       APP_PORT: 3000
     
   server:
     image: getumbrel/community-app-store-hello-world:latest
     user: "1000:1000"
     init: true
+
+  mc:
+    image: itzg/minecraft-server
+    ports:
+      - 25565:25565
+    environment:
+      EULA: "TRUE"
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
+    volumes:
+      # attach a directory relative to the directory containing this compose file
+      - ./minecraft-data:/data
