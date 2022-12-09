@@ -1,6 +1,6 @@
 manifestVersion: 1
-id: sparkles-hello-world
-name: Hello World
+id: axelpilop
+name: Minecraft Server
 tagline: Replace this tagline with your app's tagline
 icon: https://svgur.com/i/mvA.svg
 category: Development
@@ -12,12 +12,12 @@ description: >-
 
   You can also add newlines!
 
-developer: Umbrel
-website: https://umbrel.com
-submitter: Umbrel
-submission: https://github.com/getumbrel/umbrel-hello-world-app
-repo: https://github.com/getumbrel/umbrel-hello-world-app
-support: https://github.com/getumbrel/umbrel-hello-world-app/issues
+developer: AxelPilop
+website: https://axelpilop.com
+submitter: AxelPilop
+submission: https://github.com/AxelPilop/Umbrel_AxelPilop_AppStore
+repo: https://github.com/AxelPilop/Umbrel_AxelPilop_AppStore
+support: https://github.com/AxelPilop/Umbrel_AxelPilop_AppStore/issues
 gallery:
   - https://i.imgur.com/yyVG0Jb.jpeg
   - https://i.imgur.com/yyVG0Jb.jpeg
