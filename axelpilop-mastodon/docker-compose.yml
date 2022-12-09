@@ -5,10 +5,10 @@ services:
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: sparkles-mastodon_1
+      APP_HOST: sparkles-web_1
       APP_PORT: 3000
     
-  server:
+  web:
     image: tootsuite/mastodon
     user: "3000:3000"
     init: true
