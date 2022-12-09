@@ -1,16 +1,13 @@
 manifestVersion: 1
 id: axelpilop-mastodon
 name: Mastodon
-tagline: Replace this tagline with your app's tagline
-icon: https://svgur.com/i/mvA.svg
+tagline: Mastodon is a free, open-source social network server 
+icon: https://upload.wikimedia.org/wikipedia/commons/4/48/Mastodon_Logotype_%28Simple%29.svg
 category: Social
 version: "1.0.0"
 port: 4000
 description: >-
-  Add your app's description here.
-
-
-  You can also add newlines!
+  Mastodon is a free, open-source social network server based on ActivityPub where users can follow friends and discover new ones. On Mastodon, users can publish anything they want: links, pictures, text, video. All Mastodon servers are interoperable as a federated network (users on one server can seamlessly communicate with users from another one, including non-Mastodon software that implements ActivityPub)!
 
 developer: AxelPilop
 website: https://axelpilop.com
