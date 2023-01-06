@@ -22,5 +22,6 @@ releaseNotes: >-
   Just Application implementation
 dependencies: []
 path: ""
+torOnly: false
 defaultUsername: ""
 defaultPassword: ""
