@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: nginx-proxy-manager
+id: axelpilop-nginxpm
 category: Networking
 name: Nginx Proxy Manager
 version: "2355"
