@@ -23,7 +23,7 @@ website: https://github.com/teacat/chaturbate-dvr
 dependencies: []
 repo: https://github.com/teacat/chaturbate-dvr
 support: https://github.com/teacat/chaturbate-dvr/issues
-port: 8082
+port: 8085
 gallery:
   - 1.jpg
   - 2.jpg
