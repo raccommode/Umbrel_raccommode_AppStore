@@ -1,0 +1,48 @@
+manifestVersion: 1
+id: axelpilop-p-streamrec
+category: media
+name: P-StreamRec
+version: "1.0.0"
+tagline: A powerful tool to record multiple streams automatically
+icon: https://img.freepik.com/premium-vector/playback-icon-vector-multimedia-video-audio-photo-stop-pause-marketing_450656-223.jpg
+description: >-
+  P-StreamRec is a fork of chaturbate-dvr designed to automatically record multiple streams when they go online. 
+  It features a web interface for easy management and supports various recording options including custom framerates, 
+  resolutions, and file naming patterns. The application can handle private shows with session cookies and supports 
+  proxy configurations for enhanced privacy.
+
+  Features:
+  - Automatic stream recording when streams go online
+  - Web interface for easy management
+  - Custom framerate and resolution settings
+  - Flexible file naming patterns with Go template syntax
+  - Support for private shows with session cookies
+  - Proxy/SOCKS5 support for enhanced privacy
+  - Multi-stream recording capability
+  - Video segment splitting options
+  - Cloudflare bypass support
+developer: AxelPilop
+website: https://github.com/AxelPilop/P-StreamRec
+dependencies: []
+repo: https://github.com/AxelPilop/P-StreamRec
+support: https://github.com/AxelPilop/P-StreamRec/issues
+port: 8080
+gallery:
+  - 1.jpg
+  - 2.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false
+submitter: AxelPilop
+submission: https://github.com/AxelPilop/Umbrel_AxelPilop_AppStore
+releaseNotes: >-
+  Initial implementation of P-StreamRec for Umbrel. Supports automatic stream recording with web interface management.
+  
+  Features in this release:
+  - Web interface for stream management
+  - Automatic recording when streams go online
+  - Configurable recording settings including resolution and framerate
+  - Support for multiple simultaneous recordings
+  - Custom filename patterns with Go template syntax
+  - Video segment splitting capabilities

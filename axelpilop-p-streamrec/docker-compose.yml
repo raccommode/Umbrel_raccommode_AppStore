@@ -1,0 +1,16 @@
+services:
+  app_proxy:
+    environment:
+      APP_HOST: axelpilop-p-streamrec_server_1
+      APP_PORT: 8080
+
+  server:
+    build: https://github.com/AxelPilop/P-StreamRec.git
+    restart: on-failure
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+    volumes:
+      - ${APP_DATA_DIR}/data/config:/usr/src/app/conf
+      - ${APP_DATA_DIR}/data/videos:/usr/src/app/videos
