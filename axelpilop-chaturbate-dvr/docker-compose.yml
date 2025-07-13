@@ -1,0 +1,21 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: chaturbate-dvr
+      APP_PORT: 8080
+
+  chaturbate-dvr:
+    image: yamiodymel/chaturbate-dvr:latest
+    container_name: chaturbate-dvr
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+    volumes:
+      - ${APP_DATA_DIR}/videos:/usr/src/app/videos
+      - ${APP_DATA_DIR}/conf:/usr/src/app/conf
+    ports:
+      - 8080:8080
+    restart: unless-stopped

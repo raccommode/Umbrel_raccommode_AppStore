@@ -1,0 +1,28 @@
+manifestVersion: 1
+id: axelpilop-chaturbate-dvr
+name: Chaturbate DVR
+tagline: A tool to record multiple Chaturbate streams automatically
+icon: https://raw.githubusercontent.com/teacat/chaturbate-dvr/master/icon.png
+category: MEDIA
+version: "1.0.0"
+port: 8080
+description: >-
+  Chaturbate DVR is a powerful tool designed to automatically record multiple Chaturbate streams when they go online. 
+  It features a web interface for easy management and supports various recording options including custom framerates, 
+  resolutions, and file naming patterns. The application can handle private shows with session cookies and supports 
+  proxy configurations for enhanced privacy.
+
+developer: teacat
+website: https://github.com/teacat/chaturbate-dvr
+submitter: AxelPilop
+submission: https://github.com/AxelPilop/Umbrel_AxelPilop_AppStore
+repo: https://github.com/teacat/chaturbate-dvr
+support: https://github.com/teacat/chaturbate-dvr/issues
+gallery:
+  - https://raw.githubusercontent.com/teacat/chaturbate-dvr/master/screenshot.png
+releaseNotes: >-
+  Initial implementation of Chaturbate DVR for Umbrel. Supports automatic stream recording with web interface management.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
