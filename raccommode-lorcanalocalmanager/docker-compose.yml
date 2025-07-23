@@ -3,6 +3,8 @@ services:
     environment:
       APP_HOST: server
       APP_PORT: 8080
+    ports:
+      - 1923:8080
 
   server:
     build:
