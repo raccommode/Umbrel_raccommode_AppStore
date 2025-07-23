@@ -29,7 +29,7 @@ website: https://github.com/raccommode/LorcanaLocalManager
 dependencies: []
 repo: https://github.com/raccommode/LorcanaLocalManager
 support: https://github.com/raccommode/LorcanaLocalManager/issues
-port: 1923
+port: 8724
 gallery:
   - 1.jpg
   - 2.jpg

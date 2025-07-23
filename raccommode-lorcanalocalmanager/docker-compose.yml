@@ -4,7 +4,7 @@ services:
       APP_HOST: server
       APP_PORT: 1923
     ports:
-      - 1923:8080
+      - 8724:8080
 
   server:
     build:
