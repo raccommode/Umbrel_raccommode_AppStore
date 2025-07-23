@@ -2,7 +2,7 @@ services:
   app_proxy:
     environment:
       APP_HOST: server
-      APP_PORT: 1923
+      APP_PORT: 1924
 
   server:
     build:
@@ -15,14 +15,14 @@ services:
         COPY . .
         RUN mkdir -p /app/data
         HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
-          CMD curl -f http://localhost:1923/ || exit 1
-        ENV PORT=1923
+          CMD curl -f http://localhost:1924/ || exit 1
+        ENV PORT=1924
         CMD ["npm", "start"]
     restart: on-failure
     environment:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/London
-      - PORT=1923
+      - PORT=1924
     volumes:
       - ${APP_DATA_DIR}/data:/app/data
