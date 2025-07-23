@@ -5,7 +5,19 @@ services:
       APP_PORT: 1923
 
   server:
-    build: https://github.com/raccommode/LorcanaLocalManager.git
+    build:
+      context: https://github.com/raccommode/LorcanaLocalManager.git
+      dockerfile_inline: |
+        FROM node:18-alpine
+        WORKDIR /app
+        COPY package*.json ./
+        RUN npm install --only=production
+        COPY . .
+        RUN mkdir -p /app/data
+        HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
+          CMD curl -f http://localhost:1923/ || exit 1
+        ENV PORT=1923
+        CMD ["npm", "start"]
     restart: on-failure
     environment:
       - PUID=1000
