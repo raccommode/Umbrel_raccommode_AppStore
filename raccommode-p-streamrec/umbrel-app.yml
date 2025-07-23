@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: axelpilop-p-streamrec
+id: raccommode-p-streamrec
 category: media
 name: P-StreamRec
 version: "2025.28.15"
@@ -21,11 +21,11 @@ description: >-
   - Multi-stream recording capability
   - Video segment splitting options
   - Cloudflare bypass support
-developer: AxelPilop
-website: https://github.com/AxelPilop/P-StreamRec
+developer: raccommode
+website: https://github.com/raccommode/P-StreamRec
 dependencies: []
-repo: https://github.com/AxelPilop/P-StreamRec
-support: https://github.com/AxelPilop/P-StreamRec/issues
+repo: https://github.com/raccommode/P-StreamRec
+support: https://github.com/raccommode/P-StreamRec/issues
 port: 8085
 gallery:
   - 1.jpg
@@ -34,8 +34,8 @@ path: ""
 defaultUsername: ""
 defaultPassword: ""
 torOnly: false
-submitter: AxelPilop
-submission: https://github.com/AxelPilop/Umbrel_AxelPilop_AppStore
+submitter: raccommode
+submission: https://github.com/raccommode/Umbrel_raccommode_AppStore
 releaseNotes: >-
   Initial implementation of P-StreamRec for Umbrel. Supports automatic stream recording with web interface management.
   
