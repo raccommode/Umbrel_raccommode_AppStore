@@ -7,26 +7,11 @@ services:
       - 1923:8080
 
   server:
-    build:
-      context: https://github.com/raccommode/LorcanaLocalManager.git
-      dockerfile_inline: |
-        FROM node:18-alpine
-        WORKDIR /app
-        COPY package*.json ./
-        RUN npm install --only=production
-        COPY . .
-        RUN mkdir -p /app/data
-        HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
-          CMD curl -f http://localhost:8080/ || exit 1
-        ENV PORT=8080
-        ENV HOST=0.0.0.0
-        CMD ["npm", "start"]
+    build: https://github.com/raccommode/LorcanaLocalManager.git
     restart: on-failure
     environment:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/London
-      - PORT=8080
-      - HOST=0.0.0.0
     volumes:
       - ${APP_DATA_DIR}/data:/app/data
