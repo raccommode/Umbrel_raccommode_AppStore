@@ -2,7 +2,7 @@ services:
   app_proxy:
     environment:
       APP_HOST: server
-      APP_PORT: 8085
+      APP_PORT: 8080
 
   server:
     build: https://github.com/AxelPilop/P-StreamRec.git
