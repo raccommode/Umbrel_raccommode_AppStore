@@ -1,0 +1,53 @@
+manifestVersion: 1
+id: raccommode-lorcanalocalmanager
+category: utilities
+name: LorcanaLocalManager
+version: "1.0.0"
+tagline: Docker application to locally manage Disney Lorcana card collections
+icon: https://raw.githubusercontent.com/raccommode/LorcanaLocalManager/main/public/favicon.ico
+description: >-
+  LorcanaLocalManager is a comprehensive Docker application designed to help Disney Lorcana players 
+  manage their card collections locally. This application provides a complete solution for cataloging, 
+  organizing, and tracking your Lorcana cards with an intuitive web interface.
+
+  Features:
+  - Browse complete Disney Lorcana card catalog
+  - Manage your personal collection with easy add/remove functionality
+  - Advanced filtering and search capabilities
+  - Multilingual support (French/English)
+  - Local data storage with backup and restore functionality
+  - Card import/export features
+  - Responsive web interface for desktop and mobile
+  - Persistent data storage across container restarts
+
+  The application runs entirely locally, ensuring your collection data remains private and secure. 
+  Perfect for collectors who want to track their cards, plan purchases, or organize their collection 
+  without relying on external services.
+
+developer: raccommode
+website: https://github.com/raccommode/LorcanaLocalManager
+dependencies: []
+repo: https://github.com/raccommode/LorcanaLocalManager
+support: https://github.com/raccommode/LorcanaLocalManager/issues
+port: 1923
+gallery:
+  - 1.jpg
+  - 2.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false
+submitter: raccommode
+submission: https://github.com/raccommode/Umbrel_raccommode_AppStore
+releaseNotes: >-
+  Initial implementation of LorcanaLocalManager for Umbrel. A comprehensive Disney Lorcana card 
+  collection management application.
+  
+  Features in this release:
+  - Complete Disney Lorcana card catalog browsing
+  - Personal collection management with persistent storage
+  - Advanced filtering and search functionality
+  - Multilingual interface (French/English)
+  - Import/export capabilities for collection data
+  - Local backup and restore functionality
+  - Responsive web interface optimized for all devices
