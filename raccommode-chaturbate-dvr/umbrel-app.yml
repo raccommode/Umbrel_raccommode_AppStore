@@ -4,7 +4,7 @@ name: Chaturbate DVR (LB)
 tagline: Enregistre automatiquement les streams quand ils passent en ligne
 icon: https://raw.githubusercontent.com/github/explore/main/topics/video/video.png
 category: media
-version: "latest"
+version: "0.1"
 port: 4314
 description: >-
   Chaturbate DVR (LB) est une interface web permettant de surveiller des chaînes
