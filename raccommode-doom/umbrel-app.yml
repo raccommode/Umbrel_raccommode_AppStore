@@ -22,7 +22,7 @@ description: >-
   ⚠️ Doom works best in Chromium-based browsers. Firefox may encounter compatibility issues due to WebGL or security restrictions.
 developer: id Software
 website: https://github.com/id-Software/DOOM
-submitter: dennysubke
+submitter: Raccommode
 submission: https://github.com/getumbrel/umbrel-apps/pull/
 repo: https://github.com/CallumHoughton18/Doom-In-Docker
 support: https://github.com/CallumHoughton18/Doom-In-Docker/issues

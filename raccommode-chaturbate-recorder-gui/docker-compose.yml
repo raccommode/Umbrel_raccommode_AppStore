@@ -1,0 +1,25 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: raccommode-chaturbate-recorder-gui_web_1
+      APP_PORT: 8000
+      PROXY_AUTH_ADD: "false"
+
+  web:
+    image: chrisknedel/chaturbate-recorder-gui:3.0
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data:/code/database:rw
+      - /var/run/docker.sock:/var/run/docker.sock:rw
+    environment:
+      TZ: Europe/Berlin
+      ABSOLUTE_HOST_MEDIA: ${APP_DATA_DIR}/data/
+      LIMIT_MAXIMUM_FOLDER_GB: "0"     # "0" to disable folder size limit
+      LIMIT_MAXIMUM_DOWNLOADS: "0"     # "0" to disable concurrent download limit
+      COMMAND_ADAPTER: DockerAdapter
+      CONTAINER_PREFFIX: cr_
+      RECORDER_IMAGE: chrisknedel/chaturbate-recorder
+      USER_UID: "1000"
+      USER_GID: "1000"
