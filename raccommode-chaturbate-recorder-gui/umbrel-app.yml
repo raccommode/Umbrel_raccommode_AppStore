@@ -4,7 +4,7 @@ name: Chaturbate Recorder GUI
 tagline: Web UI to automatically record Chaturbate streams
 icon: https://raw.githubusercontent.com/ChristianKnedel/DockerChaturbateRecorderGUI/master/screens/3.png
 category: media
-version: "3.0"
+version: "3.1"
 port: 4822
 description: >-
   DockerChaturbateRecorderGUI provides a simple web interface to automatically
