@@ -1,0 +1,33 @@
+manifestVersion: 1
+id: raccommode-chaturbate-dvr
+name: Chaturbate DVR (LB)
+tagline: Enregistre automatiquement les streams quand ils passent en ligne
+icon: https://raw.githubusercontent.com/github/explore/main/topics/video/video.png
+category: media
+version: "latest"
+port: 4314
+description: >-
+  Chaturbate DVR (LB) est une interface web permettant de surveiller des chaînes
+  et d'enregistrer automatiquement les streams dès qu'ils deviennent en ligne.
+  L'app s'appuie sur l'image Docker officielle "lilbandit/chaturbate-dvr" et
+  expose une interface web accessible via Umbrel. Les vidéos, les fichiers
+  complétés et la configuration sont stockés dans le dossier de données de
+  l'application (volumes "videos", "complete" et "conf").
+
+  Remarque: respecter les conditions d'utilisation du service que vous
+  enregistrez. L'usage et l'enregistrement de contenus peuvent être soumis à des
+  restrictions légales et contractuelles selon votre juridiction.
+
+developer: lil-bandit
+website: https://github.com/lil-bandit/chaturbate-dvr-lil-bandit-gui
+submitter: Raccommode
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/lil-bandit/chaturbate-dvr-lil-bandit-gui
+support: https://github.com/lil-bandit/chaturbate-dvr-lil-bandit-gui/issues
+gallery: []
+releaseNotes: >-
+  Première intégration Umbrel de Chaturbate DVR (LB).
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

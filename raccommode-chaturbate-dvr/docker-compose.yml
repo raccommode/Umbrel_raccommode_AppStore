@@ -1,0 +1,20 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: raccommode-chaturbate-dvr_web_1
+      APP_PORT: 8080
+      PROXY_AUTH_ADD: "false"
+  web:
+    image: lilbandit/chaturbate-dvr:latest
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/videos:/usr/src/app/videos:rw
+      - ${APP_DATA_DIR}/complete:/usr/src/app/complete:rw
+      - ${APP_DATA_DIR}/conf:/usr/src/app/conf:rw
+    command:
+      - -domain
+      - "https://chaturbate.com/"
+      - -output-dir
+      - "./complete"
